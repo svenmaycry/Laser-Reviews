@@ -2,6 +2,7 @@
 @import "params.scss";
 
 .reviews {
+
   &__title {
     text-align: center;
     font-size: 32px;
@@ -44,6 +45,7 @@
 }
 
 .reviews-body {
+
   &__list {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -64,9 +66,6 @@
 }
 
 .reviews-item {
-
-  &__wrapper {
-  }
 
   &__img-wrapper {
 
