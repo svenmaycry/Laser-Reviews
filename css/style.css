@@ -137,40 +137,6 @@ body > * {
   color: white;
   background-color: #000;
 }
-.reviews .swiper {
-  max-width: 1200px;
-  padding: 0 50px;
-  --swiper-navigation-sides-offset: 0px;
-  --swiper-theme-color: #ffffff;
-  --swiper-navigation-size: 16px !important;
-  --swiper-navigation-top-offset: 45%;
-  --swiper-pagination-color: #f34841;
-}
-.reviews .swiper-pagination {
-  position: static;
-  padding-top: 20px;
-}
-.reviews .swiper-pagination-bullet {
-  margin-right: 20px;
-  border-radius: 50%;
-}
-@media (max-width: 479px) {
-  .reviews .swiper-pagination-bullet {
-    margin-right: 8px;
-  }
-}
-.reviews .swiper-button-prev, .reviews .swiper-button-next {
-  padding: 23px;
-  background-color: rgba(138, 138, 138, 0.67) !important;
-  border-radius: 50%;
-  transition: background-color 0.3s ease 0s;
-}
-@media (any-hover: hover) {
-  .reviews .swiper-button-prev:hover, .reviews .swiper-button-next:hover {
-    background-color: #f34841 !important;
-  }
-}
-
 .reviews-item__link {
   display: block;
   border-radius: 20px;
@@ -205,6 +171,41 @@ body > * {
   max-width: 100%;
   height: auto;
   transition: transform 0.3s ease 0s;
+  object-fit: cover;
+  aspect-ratio: 16/9;
+}
+.reviews .swiper {
+  max-width: 1200px;
+  padding: 0 50px;
+  --swiper-navigation-sides-offset: 0px;
+  --swiper-theme-color: #ffffff;
+  --swiper-navigation-size: 16px !important;
+  --swiper-navigation-top-offset: 45%;
+  --swiper-pagination-color: #f34841;
+}
+.reviews .swiper-pagination {
+  position: static;
+  padding-top: 20px;
+}
+.reviews .swiper-pagination-bullet {
+  margin-right: 20px;
+  border-radius: 50%;
+}
+@media (max-width: 479px) {
+  .reviews .swiper-pagination-bullet {
+    margin-right: 8px;
+  }
+}
+.reviews .swiper-button-prev, .reviews .swiper-button-next {
+  padding: 23px;
+  background-color: rgba(138, 138, 138, 0.67) !important;
+  border-radius: 50%;
+  transition: background-color 0.3s ease 0s;
+}
+@media (any-hover: hover) {
+  .reviews .swiper-button-prev:hover, .reviews .swiper-button-next:hover {
+    background-color: #f34841 !important;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
